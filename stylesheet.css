@@ -34,6 +34,9 @@ header{
 .menu{
   float: right;
 }
+.galeri-tempat{
+  margin-top: 80px;
+}
 
 ul li{
   margin-right: 12px;
@@ -156,7 +159,7 @@ label #btn, label #close{
     max-width: 100%;
     border-radius: 10px;
   }
-  
+
   .fill1-text{
     padding: 20px;
   }
@@ -263,61 +266,61 @@ label #btn, label #close{
     color: white;
     text-align: center;
   }
-  
+
   footer img{
     width: 150px;
     height: 150px;
     border-radius: 100%;
   }
-  
+
   footer h1{
     font-weight: normal;
   }
-  
+
   .rightfooter{
     text-align: center;
   }
-  
+
   .container{
     padding: 20px;
     display: inline-block;
 
   }
-  
+
   .brandfooter{
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  
+
   .quote{
     font-size: 28px;
     font-style: italic;
     margin-bottom: 10px;
   }
-  
+
   .btn-wrapper {
     margin: 5px 0;
   }
-  
+
   .btn-wrapper p {
     margin: 10px 0;
   }
-  
+
   .facebook {
     background-color: #3b5998;
     margin-right: 10px;
   }
-  
+
   .instagram {
     background-color: #C13584;
     margin-right: 10px;
   }
-  
+
   .twitter {
     background-color: #55acee;
   }
-  
+
   .btn {
     padding: 24px 24px;
     color: white;
@@ -325,19 +328,71 @@ label #btn, label #close{
     opacity: 0.8;
     border-radius: 100%;
   }
-  
+
   .btn:hover {
     opacity: 1;
   }
-  
+
   .btn-wrapper span{
     font-size: 20px;
   }
-  
+
   .fa{
     border-radius: 0.25em; padding: 0.2em
   }
+
+  .galeri-tempat {
+    margin-top: 20px;
+    height: 1150px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+    margin: 2% 0;
+    padding: 20px;
+  }
+
+  .container-galeri {
+    width: auto;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  .heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+  
+  .galeri { 
+    float: left;
+    width: 100%;
+  }
+  
+  .foto-galeri {
+    position: relative;
+  }
+  
+  .foto-galeri p {
+    position: absolute;
+    top: 90px;
+    width: 50%;
+    color: white;
+  }
+  
+  .caption {
+    width: auto;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #b3aeb5;
+  }
+  
 }
+
 
 @media (min-width: 1080px){
 
@@ -363,17 +418,17 @@ label #btn, label #close{
     display: flex;
     margin: 2% 10%;
   }
-  
+
   .fill1-img{
     padding: 20px;
     max-width: 100%;
     height: auto;
   }
-  
+
   .fill1-img img{
     border-radius: 10px;
   }
-  
+
   .fill1-text{
     padding: 20px;
   }
@@ -483,22 +538,22 @@ label #btn, label #close{
     margin: 0%;
     color: white;
   }
-  
+
   footer img{
     width: 100px;
     height: 100px;
     border-radius: 100%;
   }
-  
+
   footer h1{
     font-weight: normal;
     margin-left: 10px;
   }
-  
+
   .rightfooter{
     text-align: center;
   }
-  
+
   .container{
     padding: 20px;
     display: flex;
@@ -507,41 +562,41 @@ label #btn, label #close{
     margin-left: 4%;
     margin-right: 4%;
   }
-  
+
   .brandfooter{
     display: flex;
     flex-direction: row;
     align-items: center;
   }
-  
+
   .quote{
     font-size: 28px;
     font-style: italic;
-    
+
   }
-  
+
   .btn-wrapper {
     margin: 20px 0;
   }
-  
+
   .btn-wrapper p {
     margin: 10px 0;
   }
-  
+
   .facebook {
     background-color: #3b5998;
     margin-right: 10px;
   }
-  
+
   .instagram {
     background-color: #C13584;
     margin-right: 10px;
   }
-  
+
   .twitter {
     background-color: #55acee;
   }
-  
+
   .btn {
     padding: 24px 24px;
     color: white;
@@ -549,19 +604,68 @@ label #btn, label #close{
     opacity: 0.8;
     border-radius: 100%;
   }
-  
+
   .btn:hover {
     opacity: 1;
   }
-  
+
   .btn-wrapper span{
     font-size: 20px;
   }
-  
+
   .fa{
     border-radius: 0.25em; padding: 0.2em
   }
+
+  .galeri-tempat {
+    margin-top: 20px;
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+
+  .container-galeri {
+    width: auto;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
   
+  .heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+  
+  .galeri {
+    float: left;
+    width: 25%;
+  }
+  
+  .foto-galeri {
+    position: relative;
+  }
+  
+  .foto-galeri p {
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    color: white;
+  }
+  
+  .caption {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #b3aeb5;
+  }
+
+
 }
 
 @media (min-width: 1440px){
@@ -588,19 +692,19 @@ label #btn, label #close{
     display: flex;
     margin: 2% 10%;
   }
-  
+
   .fill1-img{
     padding: 20px;
     max-width: 100%;
     height: auto;
   }
-  
+
   .fill1-img img{
     border-radius: 10px;
     width: 420px;
     height: 270px;
   }
-  
+
   .fill1-text{
     padding: 20px;
   }
@@ -613,7 +717,7 @@ label #btn, label #close{
     font-size: 24px;
     text-align: justify;
   }
-  
+
   .fill2{
     padding: 20px;
     margin: 2% 10%;
@@ -621,7 +725,7 @@ label #btn, label #close{
     text-align: justify;
   }
 
-  
+
   .fill3{
     text-align: center;
     margin: 2% 2%;
@@ -711,22 +815,22 @@ label #btn, label #close{
     margin: 0%;
     color: white;
   }
-  
+
   footer img{
     width: 100px;
     height: 100px;
     border-radius: 100%;
   }
-  
+
   footer h1{
     font-weight: normal;
     margin-left: 10px;
   }
-  
+
   .rightfooter{
     text-align: center;
   }
-  
+
   .container{
     padding: 20px;
     display: flex;
@@ -735,41 +839,41 @@ label #btn, label #close{
     margin-left: 4%;
     margin-right: 4%;
   }
-  
+
   .brandfooter{
     display: flex;
     flex-direction: row;
     align-items: center;
   }
-  
+
   .quote{
     font-size: 28px;
     font-style: italic;
-    
+
   }
-  
+
   .btn-wrapper {
     margin: 20px 0;
   }
-  
+
   .btn-wrapper p {
     margin: 10px 0;
   }
-  
+
   .facebook {
     background-color: #3b5998;
     margin-right: 10px;
   }
-  
+
   .instagram {
     background-color: #C13584;
     margin-right: 10px;
   }
-  
+
   .twitter {
     background-color: #55acee;
   }
-  
+
   .btn {
     padding: 24px 24px;
     color: white;
@@ -777,17 +881,65 @@ label #btn, label #close{
     opacity: 0.8;
     border-radius: 100%;
   }
-  
+
   .btn:hover {
     opacity: 1;
   }
-  
+
   .btn-wrapper span{
     font-size: 20px;
   }
-  
+
   .fa{
     border-radius: 0.25em; padding: 0.2em
+  }
+
+  .galeri-tempat {
+    margin-top: 20px;
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+
+  .container-galeri {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  .heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+  
+  .galeri {
+    float: left;
+    width: 25%;
+  }
+  
+  .foto-galeri {
+    position: relative;
+  }
+  
+  .foto-galeri p {
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    color: white;
+  }
+  
+  .caption {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #b3aeb5;
   }
   
 }
@@ -795,4 +947,3 @@ label #btn, label #close{
 .fill0 img{
     z-index: 1000;
   }
-
