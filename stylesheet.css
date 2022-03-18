@@ -124,7 +124,7 @@ label #btn, label #close{
   }
 
   .fill0, .fill4{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(image/coffeehouse-2600877.jpg);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(Image/coffeehouse-2600877.jpg);
     height: 180px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -397,7 +397,7 @@ label #btn, label #close{
 @media (min-width: 1080px){
 
   .fill0, .fill4{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(image/coffeehouse-2600877.jpg);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(Image/coffeehouse-2600877.jpg);
     height: 200px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -626,7 +626,7 @@ label #btn, label #close{
   }
 
   .container-galeri {
-    width: auto;
+    width: 1auto;
     padding: 0 15px;
     margin: 0 auto;
   }
@@ -671,7 +671,7 @@ label #btn, label #close{
 @media (min-width: 1440px){
 
   .fill0, .fill4{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(image/coffeehouse-2600877.jpg);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(Image/coffeehouse-2600877.jpg);
     height: 250px;
     background-size: cover;
     background-repeat: no-repeat;
